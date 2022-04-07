@@ -1,0 +1,183 @@
+<html class="page">
+    <head>
+        <title>Numble</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="./index.js" defer></script>
+    </head>
+<header>
+   <div class="navbar">
+    <h1 class="title">Numble</h1>
+    <div class="icons-bar">
+      <button class="icon-bar" id="stats">
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/711/711976.png">
+      </button>
+    </div>
+   </div>
+</header>
+<div class="popup" style="display: none;">
+    <div class="close-win">
+        <button id="close_btn">X</button>
+    </div>
+    <h3 class="title_popup">DAILY STATISTICS</h3>
+    <table cellspacing="20" class="score">
+        <tr>
+            <td><span id="count-played">NA</span></td>
+            <td><span id="count-won">NA</span></td>
+            <td><span id="win-rate">NA</span></td>
+        </tr>
+        <tr>
+            <td>Played</td>
+            <td>Won</td>
+            <td>Win %</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Guess Distribution</h3>
+    <table class="distrib">
+        <tr>
+            <td>1 - </td>
+            <td id="try_done">0</td>
+        </tr>
+        <tr>
+            <td>2 - </td>
+            <td id="try_done">0</td>
+        </tr>
+        <tr>
+            <td>3 - </td>
+            <td id="try_done">0</td>
+        </tr>
+        <tr>
+            <td>4 - </td>
+            <td id="try_done">0</td>
+        </tr>
+        <tr>
+            <td>5 - </td>
+            <td id="try_done">0</td>
+        </tr>
+        <tr>
+            <td>6 - </td>
+            <td id="try_done">0</td>
+        </tr>
+    </table>
+</div>
+    <body align="center" class="body">
+          <h2 class="score">
+            #22
+          </h2>
+          <div class="boxes">
+            <div class="row answer">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <div id="line_0">
+                    <label class=""> = </label>
+                    <label class="">22</label>
+                </div>
+            </div>
+            <div class="row answer">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <div id="line_1">
+                    <label class=""> = </label>
+                    <label class="">22</label>
+                </div>
+            </div>
+            <div class="row answer">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <div id="line_2">
+                    <label class=""> = </label>
+                    <label class="">22</label>
+                </div>
+            </div>
+            <div class="row answer">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <div id="line_3">
+                    <label class=""> = </label>
+                    <label class="">22</label>
+                </div>
+            </div>
+            <div class="row answer">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <div id="line_4">
+                    <label class=""> = </label>
+                    <label class="">22</label>
+                </div>
+            </div>
+            <div class="row answer">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <div id="line_5">
+                    <label class=""> = </label>
+                    <label class="">22</label>
+                </div>
+            </div>
+            <div id="line_6"></div>
+        </div>
+        <div class="numpads">
+            <div class="row">
+                <div>
+                    <button class="numpad">1</button>
+                    <button class="numpad">2</button>
+                    <button class="numpad" >3</button>
+                    <button class="numpad" >4</button>
+                    <button class="numpad" >5</button>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <button class="numpad" >6</button>
+                    <button class="numpad" >7</button>
+                    <button class="numpad" >8</button>
+                    <button class="numpad" >9</button>
+                    <button class="numpad" >0</button>
+                </div>
+            </div>
+            <div class="row">
+                <button class="numpad">+</button>
+                <button class="numpad">-</button>
+                <button class="numpad">/</button>
+                <button class="numpad">*</button>
+                <button class="numpad">⌫</button>
+            </div>
+        </div>
+        <div class="enter-row">
+            <button class="enter">Enter</button>
+        </div>
+        </div>
+    </body>
+    <footer>
+        WebTech 2 - Dan & Zohar
+    </footer>
+</html>

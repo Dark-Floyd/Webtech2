@@ -1,0 +1,153 @@
+.page{
+    padding:0;
+    margin:0;
+}
+.title{
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing:2rem;
+    padding: 1rem;
+}
+.body{
+    margin:0;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+.icon{
+    width: 2rem;
+    padding: 0.3rem;  
+}
+
+
+.icons-bar{
+    border: 0px !important;
+    background-color: transparent !important;
+    border-width: 0;
+    
+}
+.box,
+.box_ans {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 8px;
+    box-shadow: 1px 2px black;
+    margin: 0.2rem;
+}
+.numpad {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(116, 116, 116);
+    margin: 0.1rem;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(37, 32, 32, 0.575));
+    color: rgba(255, 255, 255, 0.747);
+}
+.numpad:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+.enter {
+
+    height: 3.5rem;
+    width: 10rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(116, 116, 116);
+    margin: 0.3rem;
+    background-image: linear-gradient(to bottom, rgba(255, 61, 61, 0.822), rgba(185, 11, 11, 0.575));
+    color: rgba(53, 40, 40, 0.747);
+   
+}
+#line_1,
+#line_2,
+#line_3,
+#line_4,
+#line_5,
+#line_6 {
+    display: none;
+}
+.row>div {
+    display: inline;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.filled {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.green {
+    color: black;
+    background-image: linear-gradient(to bottom, rgba(168, 255, 183, 0.61), rgb(0, 165, 8));
+    border-color: #343a40;
+    transition: all .3s ease-in-out;
+}
+
+.yellow {
+    color: black;
+    background-image: linear-gradient(to bottom, rgba(255, 252, 220, 0.733), rgba(255, 251, 0, 0.87));
+    border-color: #343a40;
+    transition: all .3s ease-in-out;
+
+}
+.numpads{
+    padding-right: 2rem;
+}
+.enter-row{
+    padding-right: 2rem;
+}
+.popup {
+    display: flex;
+    position: fixed;
+    top: 10vh;
+    left: 36vw;
+    height: 37rem;
+    width: 30rem;
+    border: 3px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.title_popup{
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    padding: 1rem;
+}
+#close_btn{
+    background-color: black;
+    color:#fff
+}
+.distrib{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+#try_done{
+    color: tomato;
+    padding-left: 0.5rem;
+}
