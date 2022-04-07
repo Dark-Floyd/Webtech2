@@ -105,7 +105,7 @@ function loadStats () {
     timesPlayed.innerText = stats.played
     timesWon.innerText = stats.won
     winRate.innerText = ((stats.played/stats.won) * 100) + '%'
-    for(let i = 0; i < rowMaxSize; i++) {
+    for(let i = 0; i < rowMaxSize - 1; i++) {
         try_done[i].innerText = stats.rowsResults[i]
     }
 }
